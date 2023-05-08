@@ -22,15 +22,18 @@ body {
 }
 
 .hero-containetr {
-
+    
+    background-position: center;
+    background-repeat: no-repeat;
     padding-top: 188px;
      padding-bottom: 188px;
      background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image/bg-hero-image.jpg);
      background-size: cover;
      background-color:rgba(46, 47, 66, 0.7);
      max-width: 1440px;
-     background-repeat: no-repeat;
-     background-position: center;
+     margin: auto;
+  
+   
      
 
 }
@@ -328,9 +331,9 @@ span {
     font-size: 16px;
     line-height: 1.5;
     color: #F4F4FD;
-    position: absolute;
+
 width: 264px;
-height: 72px;
+
 
 
 
@@ -343,6 +346,8 @@ height: 72px;
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
+    max-width: 1440px;
+    margin: auto;
 
 }
 
@@ -668,7 +673,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .footer-content{
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+  
 
 }
 .smm-title{
@@ -699,6 +704,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
         background-color: #31d0aa;
     }
     .gap-container{
+        margin-right: 120px;
         gap: 120px;
     }
 
