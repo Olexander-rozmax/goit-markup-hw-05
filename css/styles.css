@@ -18,6 +18,13 @@ body {
 }
 
 .headefr-clas {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: white;
+
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -200,12 +207,19 @@ button {
 
 .page-header-container {
     display: flex;
+    
 
 
 
 }
 
 .portfolio-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color:white;
     border-bottom: 1px solid #e7e9fc;
 }
 
