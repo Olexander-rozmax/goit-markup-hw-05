@@ -708,10 +708,18 @@ height: 100%;
 left: 0px;
 top: 0px;
 overflow: auto;
+transform: translate(0,100%);
+transition: transform 250ms linear;
 }
 .overlay-position{
     position: relative;
+    overflow: hidden;
 
+}
+.vane:hover .overlay,
+.vane:focus .overlay
+{
+    transform: translate(0, 0);
 }
 
 /* PORTFOLIO BUTTONS  ------------------- ------------------------ */
