@@ -822,12 +822,17 @@ position: absolute;
 top: 24px;
 right: 24px;
 
+display: flex;
+align-items: center;
+justify-content: center;
+
 width: 24px;
 height: 24px;
 background: #E7E9FC;
+border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
 }
 
 .modal-close-icon{
-
+fill:#2E2F42;;
 }
