@@ -795,7 +795,6 @@ transition: transform 250ms linear;
 
 /* BACKDROP  modal window--------------------------------------- */
 .backdrop{
-    display: none;
 position: fixed;
 width: 100%;
 height: 100%;
