@@ -562,6 +562,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -577,7 +578,7 @@ span {
 
 
 .social-list-item {
-    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     width: 40px;
     height: 40px;
 
@@ -648,6 +649,8 @@ span {
 }
 
 .customer-list-link {
+    transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 100%;
     height: 100%;
     border: 1px solid #8e8f99;
@@ -796,6 +799,7 @@ padding: 40px 32px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 40px;
     height: 40px;
     border-radius: 50%;
