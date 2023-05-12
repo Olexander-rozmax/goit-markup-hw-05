@@ -796,15 +796,15 @@ padding: 40px 32px;
 }
 
 .social-list-link-footer {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     justify-content: center;
     align-items: center;
-    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
-    transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
 
 .social-list-link-footer:hover,
